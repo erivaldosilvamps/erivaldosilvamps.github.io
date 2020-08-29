@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    border-radius: 10px 20px 10px 20px;
+}
+
+#img_fundo{
+    background-image: url(img/puzzle-3223941_1920.jpg);
+
+    background-size: cover;
+    height: 100%;
+    padding: 10px;
+}
+
+#titulo{
+
+    color: brown;
+    padding-top: 5%;
+    font-size: 350%;
+    margin: 0px;
+   }
+
+#subtitulo{
+    color: brown;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-weight: 137;
+    border-top: 2px solid;
+    padding-top: 40px;
+    padding-bottom: 0%;
+    font-size: 180%;
+}
+
+#citaçao{
+    color:brown;
+    padding-right: 0px;
+    
+    text-align: right;
+    padding-bottom: 63px;
+}
+
+#acao{
+    color: brown;
+    border-radius: 10px;   
+    border: solid;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+h2{
+    padding-bottom: 3%;
+    padding-top: 4%;
+    padding-left: 2%;
+    color: black;
+    text-align: left;
+}
+
+#intro{
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 24%;
+}
+
+.corpo{
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 24%;
+}
