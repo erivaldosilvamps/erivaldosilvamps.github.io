@@ -1,0 +1,129 @@
+html,body{
+    margin: 0px;
+    border-radius: 10px 20px 10px 20px;
+}
+
+#img_fundo{
+    background-image: url(img/pexels-bongkarn-thanyakij-3774057.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 2px;
+    text-align: center;   
+    padding-top: 2%;
+    color: whitesmoke;
+    border-left: solid brown 4px;
+    border-bottom: solid brown 5px;
+}
+
+#titulo{
+    text-transform: uppercase;
+    padding-top: 13%;
+    font-size: 243%;
+    margin: 1px;    
+}
+
+#subtitulo{
+
+    padding-left: 25%;
+    padding-right: 25%;
+    font-weight: 130;
+    border-top: 4px solid whitesmoke;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    font-size: 180%;
+    text-align: center;
+    color: brown;
+    border-bottom: whitesmoke solid;
+    margin: 3%;
+}
+
+#acao{
+    color:whitesmoke;
+    border-radius: 5px;   
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-bottom: solid;
+}
+
+#acao:hover{
+    background-color: #7b1a1a;
+}
+
+#projeto{
+    padding-bottom: 0%;
+    padding-top: 2%;
+    padding-left: 2%;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    font-size: 140%;
+    border-left: gray solid 4px;
+}
+
+hr{
+    width: 3rem;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+#titulo-do-projeto{
+
+    color: black;
+    text-align: left;
+    font-size: 1.6rem;
+    padding-left: 30px;
+    padding-right: 24%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.paragrafo12{
+    color: black;
+    text-align: left;
+    font-size: 90%;
+    padding-left: 30px;
+    padding-right: 24%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#lista{
+    padding-left: 19px;
+}
+.icone{
+    width: 50px;
+    padding: 15px;
+}
+
+.icone:hover{
+    background-color: #e3dde3;
+    border-radius: 9px 10px 9px 10px;
+}
+
+.destaque{
+    background-color: #e3dde3;
+}
+
+#objetivo{
+padding: 20px;
+border-left: 4px solid brown;
+border-top: 6px solid gray;
+border-bottom: 5px solid brown;
+
+}
+
+.img-re{
+    width: 40%;
+}
+
+#realidade{
+    padding-left: 2%;
+    border-left: 4px solid brown;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+#sobre{
+    padding-left: 2%;
+    border-top: 5px solid gray;
+    border-left: 4px solid brown;
+    border-bottom: 4px solid brown;
+}
