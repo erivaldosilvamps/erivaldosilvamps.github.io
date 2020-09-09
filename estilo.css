@@ -1,0 +1,213 @@
+html,body{
+    margin: 0;   
+    font-family: 'Roboto', sans-serif; 
+}
+header{
+    background-color: #61616169;
+    color:white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;   
+    
+}
+#logo img{
+    width: 50px;
+    position: absolute;
+    margin: 4px;
+    margin-left: 13px;
+}
+#menu{
+    float: right;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+li{
+    float:left;
+    padding: 20px 20px 21px 20px;
+    border-radius: 23px;
+}
+li:hover{
+    background-color: #a52a2aab;
+}
+li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bolder;
+    
+    
+}
+
+#img_fundo{
+    background-image: url(img/capa3.jpeg);    
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+#titulo{
+    padding-top: 10%;
+    font-size: 220%;
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+#subtitulo{
+    padding-left: 25%;
+    padding-right: 25%;
+    font-weight: 130;
+    border-top: 4px solid whitesmoke;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 180%;
+    text-align: center;
+    color: white;
+    border-bottom: whitesmoke solid;    
+    margin: 1%;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+#acao{
+    color:whitesmoke;
+    border-radius: 5px;   
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-bottom: solid;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+#acao:hover{
+    background-color: #7b1a1a;
+}
+
+/* PRIMEIRA SESSAO*/
+
+section{
+    padding: 20px;
+    float: left;
+    text-align: center;
+    border: solid brown 1.5px;
+    border-right:0 ;
+}
+ 
+.destaque{
+    background-color: #e3dde3;
+}
+
+/*SEGUNDA SESSAO*/
+
+
+
+.icone{
+    width: 50px;
+    padding: 20px 20px 21px 20px;
+    border-radius: 46px;
+}
+.icone:hover{
+    background-color: gray;
+}
+.fonte{
+    font-size: 18px;
+    
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+/*TERCEIRA SESSAO*/
+
+.imgeco{
+    width: 80%;
+}
+
+
+
+/*coluna do layout*/
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;/*posiao do elemento, vai varia o elemento que vem anteriormente.(div ao lado esquerdo)*/
+        
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+    
+}
+
+.quatro{
+    width: 15%;
+    padding-top: 5%;
+}
+
+/*sobre mim*/
+
+#sobre-mim{
+    padding-right: 48%;
+}
+#sobre img{
+    width: 100%;
+    border: solid;
+}
+footer{
+    background-color: black;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-weight: inherit;
+}
+.topo{
+    padding-top: 10%;
+    padding-top: 5%
+}
+
+.acaosobre{
+    color: white;
+    text-decoration:none;
+    border-bottom: white solid 0.1px;
+}
+.acaosobre:hover{
+    background-color: brown;
+
+}
+
+/*vai observa o tamanho da tela, que estáconsumindo o site, e fazer as adaptações de acordo o as especificações*/
+@media all and (max-width: 768px){
+
+    #menu{visibility: hidden;}
+
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin:10px auto;
+        float: none;
+    }
+
+    #logo{
+        text-align: center;
+    }
+
+    #logo img{
+        margin-left: 0;
+        position: relative;
+    }
+
+    #titulo{
+        padding-top: 15%;
+    }
+
+    #subtitulo{
+        font-size: 130%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
